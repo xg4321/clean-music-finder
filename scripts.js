@@ -1,7 +1,7 @@
 scripts.js
 async function searchYouTube() {
     const query = document.getElementById('search').value;
-    const apiKey = 'YOUR_YOUTUBE_API_KEY'; // Replace with your YouTube Data API key
+    const apiKey = 'AIzaSyC82nOCr0wMfzqfcs_7fg_2Ok44DekBwmQ'; // Replace with your YouTube Data API key
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=${query}+clean&type=video&key=${apiKey}`;
     
     try {
